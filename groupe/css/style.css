@@ -1,0 +1,14 @@
+@media screen and (min-width:768px) {
+    main {
+        display : grid;
+        max-width:40%;
+        grid-template-columns:repeat(3, 1fr) ;
+        gap:1em;
+        margin:0 auto;
+    }
+    
+    main article {
+        background-color:#f7b801;
+        height:30vh;
+    }
+}
