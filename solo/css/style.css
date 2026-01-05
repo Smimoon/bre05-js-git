@@ -1,0 +1,35 @@
+body {
+    box-sizing:border-box;
+    margin:0;
+}
+.header,
+.footer {
+    background-color:#a31621;
+}
+.header {
+    height:10vh;
+}
+.main {
+    height:70vh;
+    background-color:white;
+}
+.footer {
+    height:20vh;
+}
+
+@media screen and (max-width:768px) {
+    .header,
+    .footer {
+        background-color:#3d348b;
+    }
+    .header {
+        height:5vh;
+    }
+    .main {
+        background-color:white;
+        height:85vh;
+    }
+    .footer {
+        background-color:#3d348b;
+    }
+}
